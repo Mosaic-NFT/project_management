@@ -1,12 +1,14 @@
 Non-fungible tokens are one of the newest features to Bitcoin Cash and open up posibilities for other products and services to be built using this new technology. Most of the focus on NFTs is as a collectible, or as a way for artists to expand their market for unique creative works. However, two other use-cases are for authentication and as proof of ownership. The Mosaic-NFT project aims to use NFTs to create a community art project, where the art itself is under distributed control by the owners of the NFTs.
 
 Project Scope and Deliverables:
- * Creating an distributing NFTs, each of which allow the owner to control the state of a pixel in a large image, the mosaic.
+ * Creating and distributing NFTs, each of which allow the owner to control the state of a pixel in a large image, the mosaic.
  * Developing a protocol to change the state of the pixel. Token-holders will be able to execute these commands using any BCH wallet that allows directly manipulating OP_RETURN data.
  * Creating a website that will display the current state of the mosaic.
  * Create a tool allow token-holders to paste simple instructions into OP_RETURN.
+ * Integrate a non-custodial wallet into the CMS to grant token holders access to more complex features within their browser.
 
-This will require the deveopment of source code, which will all be open source, and we'll documented and tested to be used by the wider BCH community.
+This will require the deveopment of source code, which will all be open source, with an emphasis on documentation and unit testing.
+We also plan to use read.cash to provide updates of the project progress.
 
 
 I've been working on adding the SLP and NFT support to mainnet.cash project the last couple of months. While developing it I grew passionate about tokens in general and non-fungible collectibles in particular, thanks to amazing Waifu faucet and its community. So I have set up a website to try out the recent developments - the Waifu Camp.
